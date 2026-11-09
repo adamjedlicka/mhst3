@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "jsx": "react-jsx",
+    "types": ["node", "vite/client"]
+  },
+  "include": [
+    "*.config.ts",
+    "tests",
+    "src/**/*.test.ts",
+    "src/**/*.test.tsx",
+    "convex/**/*.test.ts"
+  ]
+}

@@ -1,0 +1,18 @@
+# Rewrite dependencies and generated output. The legacy submodule is read-only.
+/node_modules/
+/dist/
+/coverage/
+/.cache/
+/playwright-report/
+/test-results/
+*.tsbuildinfo
+
+# Local deployment state and secrets; never commit real values.
+/.convex/
+/.env
+/.env.*
+!/.env.example
+
+# Local workspace/editor files.
+/.delta/
+.DS_Store
