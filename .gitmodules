@@ -1,0 +1,3 @@
+[submodule "old"]
+	path = old
+	url = git@github.com:mhst-vyvoj/mhst-erp.git
